@@ -1,0 +1,10 @@
+# Exclude directories
+.amazonq/
+archive/
+
+# Exclude JAR files
+*.jar
+
+# Optional: exclude other build artifacts
+**/target/
+**/.allure/

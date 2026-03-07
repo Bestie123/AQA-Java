@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Известные баги",
+    "matchedStatuses": ["skipped"],
+    "messageRegex": ".*БАГ-.*|.*BUG-.*"
+  },
+  {
+    "name": "Проблемы инфраструктуры",
+    "matchedStatuses": ["broken", "failed"],
+    "messageRegex": ".*Connection.*|.*WireMock.*|.*timeout.*"
+  },
+  {
+    "name": "Устаревшие тесты",
+    "matchedStatuses": ["broken"],
+    "traceRegex": ".*NoSuchMethodError.*"
+  },
+  {
+    "name": "Дефекты продукта",
+    "matchedStatuses": ["failed"]
+  },
+  {
+    "name": "Дефекты тестов",
+    "matchedStatuses": ["broken"]
+  }
+]
